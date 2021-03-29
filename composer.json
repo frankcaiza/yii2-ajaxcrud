@@ -1,7 +1,7 @@
 {
     "name": "frankcaiza/yii2-ajaxcrud",
     "type": "yii2-extension",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "description": "CRUD Ajax personalizado",
     "authors": [
         {
