@@ -1,0 +1,28 @@
+{
+    "name": "frankcaiza/yii2-ajaxcrud",
+    "type": "yii2-extension",
+    "minimum-stability": "dev",
+    "description": "CRUD Ajax personalizado",
+    "authors": [
+        {
+            "name": "Franklin Caiza",
+            "email": "franklin_caiza@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "frankcaiza\\ajaxcrud\\": "src/"
+        }
+    },
+    "require": {
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-gii": "*",
+        "yiisoft/yii2-bootstrap": "*",
+	"kartik-v/yii2-grid": "^3.0.4",
+        "kartik-v/yii2-mpdf": "^1.0.0",
+        "kartik-v/yii2-editable": "^1.7.3"
+    },
+    "extra": {
+        "bootstrap": "frankcaiza\\ajaxcrud\\Bootstrap"
+    }
+}
